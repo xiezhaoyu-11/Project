@@ -55,6 +55,12 @@ const routesMap = [
     name: 'Login',
     component: ()=>import("@/views/Login")
   },
+  // 拉取代码显示
+  {
+    path:'/pulling',
+    name:'Pulling',
+    component:()=>import("@/views/Pulling")
+  },
   {
     path:"*",
     name:"404",
